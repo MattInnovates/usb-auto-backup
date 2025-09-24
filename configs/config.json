@@ -2,12 +2,28 @@
   "backupDir": "D:\\USB_Backups",
   "notify": true,
   "devices": [
-    
+    {
+      "label": "WORK_USB",
+      "serial": "1234-ABCD",
+      "upload": "local"
+    },
+    {
+      "label": "KINGSTON",
+      "serial": "9XYZ-9876",
+      "upload": "local"
+    },
+    {
+      "label": "USB_F",
+      "serial": "D6CBED7E",
+      "upload": "local"
+    }
   ],
   "sftp": {
+    "enabled": false,
     "host": "sftp.example.com:22",
-    "user": "backupuser",
+    "port": 0,
+    "username": "",
     "password": "changeme",
-    "remoteDir": "/backups/"
+    "remotePath": ""
   }
 }

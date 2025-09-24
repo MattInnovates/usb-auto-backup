@@ -15,10 +15,12 @@ type DeviceRule struct {
 
 // SFTPConfig holds remote upload settings
 type SFTPConfig struct {
-	Host      string `json:"host"`
-	User      string `json:"user"`
-	Password  string `json:"password"`
-	RemoteDir string `json:"remoteDir"`
+	Enabled  bool   `json:"enabled"`
+	Host     string `json:"host"`
+	Port     int    `json:"port"`
+	Username string `json:"username"`
+	Password string `json:"password"`
+	Remote   string `json:"remotePath"`
 }
 
 // Config holds global settings

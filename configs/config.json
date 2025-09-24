@@ -1,0 +1,13 @@
+{
+  "backupDir": "D:\\USB_Backups",
+  "notify": true,
+  "devices": [
+    
+  ],
+  "sftp": {
+    "host": "sftp.example.com:22",
+    "user": "backupuser",
+    "password": "changeme",
+    "remoteDir": "/backups/"
+  }
+}
